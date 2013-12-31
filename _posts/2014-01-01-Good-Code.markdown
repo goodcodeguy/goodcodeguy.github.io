@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Good Code"
+date:   2014-01-01
+categories: news
+---
+
+Just wanted to do a quick update going into the new year.  I've pointed this domain to github to utilize github pages and the jekyll framework so that I could put together a quick site so I can finally get something out there and focus on more important things.
+
+This site is currently using the default jekyll template and I plan to change it, as soon as I get through my laziness when it comes to personal projects. Work has been providing me with great opportunities to do fun and exciting things so hopefully I'll have time in the coming year to post about these and about all the wonderful new things I'm learning along the way.
+
+See you on the flip side!
