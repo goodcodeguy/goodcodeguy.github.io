@@ -1,1 +1,6 @@
-@import 'modules/_syntax';
+@import 'modules/normalize';
+@import 'modules/colors';
+@import 'modules/syntax';
+
+@import 'partials/base';
+@import 'partials/footer';

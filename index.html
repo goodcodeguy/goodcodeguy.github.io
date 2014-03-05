@@ -4,12 +4,9 @@ title: Good Code, Good Guy
 ---
 
 <div id="home">
-  <ul class="posts">
+  <section class="articles">
     {% for post in site.posts %}
-      <li>
-        <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
-        <p>{{ post.excerpt }}</p>
-      </li>
+      {% include post-excerpt.html %}
     {% endfor %}
-  </ul>
+  </section>
 </div>
