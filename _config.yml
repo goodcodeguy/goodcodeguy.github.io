@@ -1,3 +1,9 @@
 name: Good Code Guy
 markdown: redcarpet
 pygments: true
+
+sass:
+  style: expanded
+  deploy_style: compressed
+
+  compile_in_place: false
