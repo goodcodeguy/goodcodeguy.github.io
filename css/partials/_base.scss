@@ -9,11 +9,13 @@ header {
   background-position: center;
   text-align: center;
   margin: 0;
+  border-bottom: 4px solid $header_border_color;
 }
 
 .headerLogo {
   width: 200px;
   height: 200px;
+  border: 2px solid $header_border_color;
   border-radius: 150px;
   position: relative;
   bottom: -120px;
