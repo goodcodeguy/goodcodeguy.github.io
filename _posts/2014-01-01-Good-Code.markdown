@@ -2,7 +2,7 @@
 layout: post
 title:  "Good Code"
 date:   2014-01-01
-categories: news
+tags: news
 ---
 
 Just wanted to do a quick update going into the new year.  I've pointed this domain to github to utilize github pages and the jekyll framework so that I could put together a quick site so I can finally get something out there and focus on more important things.

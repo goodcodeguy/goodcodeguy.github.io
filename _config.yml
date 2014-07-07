@@ -1,6 +1,10 @@
+title: Nick Shepherd
+tagline: goodcodeguy
+url: http://goodcodeguy.com
 name: Good Code Guy
 markdown: redcarpet
 pygments: true
+permalink: pretty
 
 sass:
   style: expanded
