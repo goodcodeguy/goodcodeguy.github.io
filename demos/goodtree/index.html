@@ -1,9 +1,73 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Good Tree Demos</title>
-</head>
-<body>
-Coming soon...
-</body>
+  <head>
+    <title>Good Tree View</title>
+    <script src="https://raw.githubusercontent.com/goodcodeguy/goodtree/master/src/jquery-1.9.1.min.js"></script>
+    <script src="https://raw.githubusercontent.com/goodcodeguy/goodtree/master/src/goodtree.plugin.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var tree = $('#tree').goodtree({'reveal': $('.focus')});
+      });
+    </script>
+
+    <style type="text/css">
+
+      #tree, #tree ul {
+        list-style-type: none;
+      }
+
+      #tree li > span {
+        margin-left: 20px;
+      }
+
+      #tree li > .toggle {
+        position: absolute;
+        display: inline-block;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 16px;
+        width: 16px;
+        cursor: pointer;
+      }
+
+        #tree li > div.closed {
+          background-image: url(images/expand_icon.png);
+        }
+
+        #tree li > div.open {
+          background-image: url(images/contract_icon.png);
+        }
+
+        .focus {
+          background-color: #eee;
+        }
+
+    </style>
+
+  </head>
+  <body>
+    <ul id="tree">
+      <li>
+        <span>Menu Item 1</span>
+        <ul>
+          <li>Submenu Item 1</li>
+          <li>Submenu Item 2</li>
+          <li>Submenu Item 3</li>
+        </ul>
+      </li>
+      <li>
+        <span>Menu Item 2</span>
+        <ul>
+          <li>
+            <span>Submenu Item 1</span>
+            <ul>
+              <li>Sub Submenu Item 1</li>
+              <li>Sub Submenu Item 2</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><span>Menu Item 3</span></li>
+    </ul>
+  </body>
 </html>
